@@ -24,7 +24,10 @@ another problem was to understand how to fit all cities of the world into one dr
 I thought about building it from a Json but couldn't find an API to fetch this data from
 and there was nothing about adding a country so given the little time I had I just added Afew random cities of my choice to the dropdown.
 
-to run the project open 2 terminals one for react and another for the Django
+i've studied mostly from Youtube and Guids that I found online but in my oppinion it wasn't enough.
+I even consulted with someone who had some experience with Django but the help I could get was very limited.
+
+To run the project open 2 terminals one for react and another for the Django
 for the react project you need to install the node modules and run 
 npm start
 
