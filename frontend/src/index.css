@@ -1,15 +1,43 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
 body {
-  background: #76b852;
+  background: #b2da9d;
   display: flex;
   min-height: 100vh;
   justify-content: center;
   align-items: center;
 }
 
+.title {
+  margin: 10px;
+  padding: 10px;
+  font-size: 24px;
+  border: 0;
+  font-family: "Roboto", sans-serif;
+}
+.additional-on-field-title {
+  font-size: 16px;
+  border: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+label {
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+select {
+  background: #e7e5e5;
+  border: 5px;
+  border-radius: 9px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
 .form-container {
-  width: 360px;
+  width: 450px;
   background-color: white;
   margin: auto;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
@@ -47,6 +75,7 @@ span {
 
 input {
   background: #f2f2f2;
+  border-radius: 5px;
 }
 
 .error {

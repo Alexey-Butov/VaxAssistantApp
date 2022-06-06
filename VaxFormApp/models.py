@@ -12,7 +12,7 @@ class Citizen(models.Model):
     ZipCode = models.PositiveIntegerField()
     LandLine = models.CharField(max_length=12)
     CellularPhone = models.CharField(max_length=12)
-    BeenInfected = models.BooleanField(default=False)
-    BackGroundDiseases = models.CharField(max_length=100)
+    BeenInfectedWithCovid = models.BooleanField(default=False)
+    BackGroundDiseases = models.CharField(max_length=200)
     
 
